@@ -1,0 +1,50 @@
+body {
+    background-color: palegreen; /* Background Color */
+    color: black; /* Text Color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white; /* Header Background Color */
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center; /* Center Navigation */
+    padding: 10px;
+    background-color: darkgreen; /* Navigation Background Color */
+}
+
+nav a {
+    color: white; /* Navigation Text Color */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px; /* Capsule Form */
+}
+
+nav a:hover {
+    background-color: #4CAF50; /* Highlight on Hover */
+}
+
+.container {
+    padding: 20px;
+}
+
+.card {
+    background-color: white; /* Card Background Color */
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px; /* Rounded Corners for Cards */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for Cards */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: darkgreen; /* Footer Background Color */
+    color: white; /* Footer Text Color */
+}
